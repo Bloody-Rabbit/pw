@@ -1,0 +1,50 @@
+/*selectores*/
+body{
+	border:1px solid red;
+	margin:0 auto;  /*el primer valor corresponde arriba y abajo, auto indica los margenes horizontales*/ 
+	width:1024px;
+}
+header{
+	text-align: center;
+	border:1px solid blue;
+}
+header img{
+	float: right;  /*se mueve a la derecha*/
+	width: 90px;
+	margin-right: 15px;
+	margin-top: -60px;
+}
+header nav{
+	margin-top: 60px;
+}
+header nav ul li{
+	background: blue;
+	color: white;
+	margin: 0px 5px 0px 0px;
+	padding: 2px 10px 2px 10px;
+	display: inline-block;
+	border-radius: 5px;
+	width: 83px;
+	box-shadow:-3px -3px rgba(0,0,255,0.5); /*caja detras de caja, osea una sombra (pixeles a la derecha de sombra, pixeles de la base hacia abajo, color)*/
+} 
+
+header nav ul li:hover{  /*dispara un evento al pasar el mouse por encima*/
+	background: orange;
+	color: black;
+}
+section article{
+	border: 1px solid tomato;
+	width:32%;
+	vertical-align: top;
+	display: inline-block;
+}
+footer{
+	margin-top: 5px;
+	text-align: center;
+	background: blue;
+	color: white;
+}
+footer:hover{  /*dispara un evento al pasar el mouse por encima*/
+	background: black;
+	color: yellow;
+}
