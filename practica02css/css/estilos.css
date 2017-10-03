@@ -1,0 +1,68 @@
+body{
+	margin:0 auto; /*centramos el body*/
+	width:1078px; /*la empresa quiere la pagina de 1078px*/
+	border: 1px solid;
+	font-size: 16px; /*1em*/
+}
+
+#paint{
+	float:right;
+}
+
+header input{
+	float: right;
+	margin-right: -200px;
+	position: relative;
+	border: 1px solid black;
+	border-radius: 2px;
+	margin-top: 10px;
+}
+#granthams{
+	margin-top: 20px;
+	margin-left: 15px;
+}
+
+header nav{
+	/*border: 1px solid red;*/
+	/*text-align: center; --> No funciona por la mancha de pintura*/
+	margin-left: 220px;
+}
+
+header nav ul li{
+	color: gray;
+	display: inline-block;
+	font-size: 1,8em;
+	margin-right: 15px;
+	border-bottom:  1px solid gray;
+	/*text-decoration: underline;*/
+}
+#primerseccion
+{
+	height: 318px;
+	margin-top: 60px;
+}
+
+#primerseccion article
+{
+	display:inline-block;
+	vertical-align: top;
+}
+
+#secc01art01
+ {
+ 	margin-left: 20px;
+ 	width: 60%;
+
+ }
+
+ #secc01art02
+ {
+ 	width: 30%;
+ }
+
+#bgoffer{
+	/*margin-top: -500px;*/
+	position: relative;
+	top:-410px;
+	left: -35px;
+}
