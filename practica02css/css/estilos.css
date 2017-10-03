@@ -3,6 +3,8 @@ body{
 	width:1078px; /*la empresa quiere la pagina de 1078px*/
 	border: 1px solid;
 	font-size: 16px; /*1em*/
+	max-width: 1078;
+	min-width: 1078;
 }
 
 #paint{
