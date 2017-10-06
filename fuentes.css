@@ -1,0 +1,10 @@
+@font-face {
+    font-family: Tenor Sans;
+    src: url("Tenor Sans/Tenor Sans-Regular.ttf");
+}
+
+h1
+{
+font-family: 'Josefin Sans', sans-serif;
+font-family: Tenor Sans;
+}
