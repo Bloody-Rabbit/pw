@@ -1,0 +1,122 @@
+body{
+	font-size: 16px; 
+	margin: 0 auto;
+	max-width: 1024px;
+	min-width: 1024px
+}
+ 
+header img{ 
+	margin-left: 10px
+}
+
+header nav ul li{
+	text-align: right;
+	display: inline-block;
+	/*margin-left: 18px;*/
+	font-size: 16px;
+	margin: 60px 0px 0px 20px;
+}
+
+#bikelogo{
+	margin: 40px 0px 0px -30px;
+}
+
+#mundo{
+	float: right;
+}
+#bandera{
+	float: right;
+}
+
+#rojo{
+	float: right;
+}
+
+#goto{
+	float: right;
+	margin: 60px -30px 0px 0px;
+}
+ 
+#buy{
+	float: right;
+	margin: 140px -10px 0px 0px;
+}
+
+#seccion1art1{
+	/*display: inline-block;*/
+	width: 50%;
+}
+#seccion1art2{
+	/*display: inline-block;*/
+	width: 50%;
+}
+#bike{
+	width: 300px;
+}
+
+#seccion1 article{
+	display: inline-block;
+}
+
+#video1{
+	width: 230px;
+}
+#video2{
+	width: 230px;
+}
+
+#seccion2 {
+ 	margin-left: 15px;
+ 	color: #BEBDBD;
+}
+#fb{
+	width: 20px
+	float: left;
+	margin: 35px 10px 0px 0px;
+}
+#tw{
+	width: 20px
+	float: left;
+	margin: 35px 10px 0px 0px;
+}
+#signal{
+	width: 20px
+	float: left;
+	margin: 35px 10px 0px 0px;
+}
+#voice{
+	width: 20px
+	float: left;
+	margin: 35px 10px 0px 0px;	
+}
+
+footer{
+	display: inline-block;
+	color: #BEBDBD;
+}
+#footart1{
+	width: 20%;
+}
+#footart2{
+	width: 20%;
+}
+#footart3{
+	width: 20%;
+}
+#footart4{
+	width: 20%;
+}
+#footart5{
+	width: 20%;
+}
+.spn{
+	color: #8E8E8E;
+}
+
+.first{
+	font-size: 3em;
+}
+.balance{
+	font-size: 3em;
+	color: #78F04C;
+}
