@@ -1,0 +1,118 @@
+/*Imagen con atributo alt*/
+img[alt]{
+	border: 5px solid blue;
+}
+/*Imagen con atributo SRC cadena exacta*/
+img[src="img/alerta.png"]{
+	width: 400px;
+}
+/* ^ = circunflejo */
+/*Imagen con atributo SRC con el inicio de 
+la cadena*/
+img[src^="img/"]{
+	width: 150px;
+}
+/*Imagen con el atributo SRC al final de
+la cadena*/
+img[src$="png"]{
+	width: 250px;
+}
+/*Imagen con el atributo SRC en cualquier
+parte de la cadena*/
+img[src*="mg/"]{
+	width: 1000px;
+}
+/*El caracter ~ indica que estos selectores
+en este article están separados por espacios*/
+article[class~="resaltado"]{
+	border: 1px dashed blue;
+}
+article[class~="archivo"]{
+	border: 1px dashed red;
+}
+article[class~="ingles"]{
+	border: 1px dashed green;
+}
+/*El atributo id es una lista de valores separados
+por guiones, pero sólo si el valor más a la
+izquierda es ingles*/
+article[id|="ingles"]{
+	text-align: center;
+}
+/*selector de secundarios para seleccinonar
+solamente el(los) <p> que se encuentran
+inmediatamente despues del <div>*/
+div > p { /*solo los hijos directos*/
+	color: blue;
+}
+/*Todos los elementos <p> serán seleccionados*/
+div p{
+	color: red;
+}
+/*Seleccionar sólo el elemento <p> que está
+inmediatamente después del elemento <h2>
+Hermano adyacente*/
+h2 + p{
+	color: green;
+}
+/*Seleccionar todos los hermanos del tipo 
+de elemento especificado
+Hermano general*/
+h2 ~ p{
+	color: grey;
+}
+/*Poner en color rojo el texto de los section
+menos el id="referencias"*/
+#resumen,#experimento,#pruebas,#resultados,#conclusiones
+{
+	color: tomato;
+}
+/*Seleccionar todos menos la que no quiero*/
+section:not(#referencias)
+{
+	color: hotpink;
+}
+/*Seleccionar elemento LI pares e impares*/
+li:nth-child(odd) /*Impar*/
+{
+	color: green;
+}
+li:nth-child(even) /*Par*/
+{
+	color: blue;
+}
+li:nth-child(5) /*Quinto elemento*/
+{
+	color:red;
+}
+li:nth-last-child(1) /*último elemento hacia arriba*/
+{
+	color:yellow;
+}
+/*Primer y el último elemento*/
+article:first-child /*nth-child(1)*/
+{
+	color:blue;
+}
+article:last-child
+{
+	color:yellow;
+}
+/*Primera línea de un párrafo*/
+p:first-line{
+	font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
