@@ -1,0 +1,42 @@
+JavaScrip: (lenguaje de programación)
+*se integra con HTML para validaciones
+*LiveScrip (menos poderoso)
+*Sintaxís JAVA (if, while, etc...)
+*Punto y coma es opcional (recomienda)
+*Elimina el ocultamiento (se mira el codigo del lado del cliente)
+*Existe JavaScript del lado del servidor en distintas aplicaciones
+*No es tipado, es decir, no hay que declarar el tipo de datos en las variables.
+
+-----------------------------------------------------------------
+var a = 1
+undefined
+a
+1
+var b =2
+undefined
+b
+2
+a+b
+3
+a*b
+2
+a+a*b
+3
+a+a*b
+3
+function suma (i,j) {return i+j;}
+undefined
+suma
+ƒ suma(i,j) {return i+j;}
+var suma2=function (k,l) {return k+l}
+undefined
+suma2
+ƒ (k,l) {return k+l}
+suma2(8,9)
+17
+suma(8,9)
+17
+alert("Hola JavaScript")
+undefined
+for (var i=0; i<3;i++) {alert ("Jajajaja");}
+undefined
