@@ -1,0 +1,25 @@
+{
+  "name": "calculadora",
+  "version": "1.0.0",
+  "description": "Calculadora electron",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "calculadora",
+    "escritorio",
+    "electron"
+  ],
+  "author": "Samantha Osiris",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^1.7.9"
+  },
+  "devDependencies": {
+    "electron-packager": "^9.1.0",
+    "electron-require": "^0.3.0",
+    "jquery": "^3.2.1"
+  }
+}
