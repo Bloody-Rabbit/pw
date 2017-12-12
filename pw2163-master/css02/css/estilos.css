@@ -1,0 +1,148 @@
+body
+{
+font-size: 16px; /*lem*/
+margin: 0 auto;
+max-width: 1078px; /*normalmente 1024, pero se manejan 1078 por decision de la empresa*/
+min-width: 1078px
+
+}
+
+header input
+{
+	float: right;
+	margin-right: -200px;
+	margin-top: 15px;
+	position: relative;
+}
+
+header nav
+{
+	margin-left: 220px;
+
+}
+
+header nav ul li
+{
+	border:-bottom: 1px solid gray;
+	color: gray;
+	display: inline-block;
+	font-size: 1.8em;
+	margin-right: 15px;
+
+
+}
+
+#bgoffer{
+
+	left: -35px;
+	position: relative;
+	/*position: absolute;*/
+	/*podemos usar lso atributos left, right, top*/
+	top: -410px;
+}
+
+#granthams /*logo de la empresa*/
+{
+	margin-top: 20px;
+	margin-left: 25px;
+}
+
+#mailinglist{
+
+	padding-top: 60px ;
+	/*mueve el contenido del article*/
+}
+
+#paint
+{
+float: right;
+margin-top: 20px;
+
+}
+
+#primerseccion
+{
+	height: 317.99px;
+	margin-top: 70px;
+
+}
+
+#primerseccion article
+{
+	display:inline-block;
+	margin-left: 25px;
+	vertical-align: top;
+
+}
+
+#secc01art01
+{
+	width: 60%;
+}
+
+#segundaseccion article
+{
+	padding-right: 155px;
+	text-align: right;
+}
+
+#terceraseccion article{
+
+	display: inline-block;
+	width: 22%;
+	vertical-align: top;
+}
+
+#terceraseccion article img {
+	vertical-align: middle;
+}
+
+/*#primerseccion,#segundaseccion{
+border: 1px solid red;
+
+}*/
+
+
+#secc01art02
+{
+width: 30%;
+}
+
+#secc01art02 ul{
+	list-style: none;
+}
+
+
+.colorazul{
+	color: #16BEF8;
+}
+
+.colorrosa{
+color: #F4A3C6;
+}
+
+.colorverde{
+	color: #A6DE47;
+}
+
+.colorazul, .colorrosa, .colorverde{
+font-size: 1.5em;
+font-weight: bold;
+
+}
+
+
+.numerotelefono{
+	color: #FF0099;
+	font-size: 2.5em;
+	font-weight: bold;
+
+}
+
+
+.wecanoffer{
+	color:#FF0099;
+	font-size: 3.5em;
+	font-weight: bold;
+	
+}

@@ -1,0 +1,94 @@
+/*selectores*/
+/*1.- Etiquetas*/
+/*2.- Identificadores*/
+/*3.- Clases*/
+
+@font-face{
+	/*Nombre de la cuente*/
+	font-family: 'Coming Soon';
+	/*¿Donde esta el archivo?*/
+	src: url('fuentes/Coming_Soon/ComingSoon.ttf');
+
+}
+body  /*selector -etiqueta */
+{
+
+	/*atributo:valor;*/
+	border: 5px solid blue;
+	border-radius:  10px;
+	margin: 0px auto;
+	max-width: 1024px;
+	font-size: 16px; /*tamaño de la fuente estandar*/
+
+
+
+
+}
+
+footer{ 
+border: 1px solid blue;
+font-size: 8em;
+text-align: center; /*alineamos todo el texto*/
+}
+
+header {
+	background: purple; /*fondo*/
+	border: 5px solid red;
+	color: white;
+	padding: 0px 0px 10px 0px;
+	text-align: center; /*alineación*/
+
+}
+
+header img {
+float: right;
+margin: -60px 20px 0px 0px;
+width: 100px; /*ancho de la imagen*/
+
+
+}
+
+header nav ul li {
+	/*border: 1px solid yellow;*/
+	background: goldenrod;
+	border-radius: 5px;
+	box-shadow: 5px 5px;
+	display: inline-block; /*rompe modelo de caja */
+	font-family: 'Open Sans';
+	margin: 0px 10px 50px 10px; /*separo las cajas*/
+	padding: 5px, 10px; /*agrando los botones (interno)*/
+	width: 80px; /*ancho del boton*/
+
+
+}
+
+header nav ul li:hover /*mouse color por encima */
+	 {
+
+	background: white;
+	color: orange;
+
+}
+
+header h1{
+/*agregamos la fuente a h1*/
+font-family: 'Roboto', sans-serif;
+
+}
+
+main section {
+
+	margin: 15px 0px 0px 0px;
+}
+
+main section article
+{
+
+	/*border:1px solid red;*/
+	display: inline-block;
+	vertical-align: top;
+	width: 24%;
+	font-family: 'Coming Soon';
+
+}
+

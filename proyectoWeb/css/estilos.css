@@ -1,0 +1,15 @@
+body{
+	background-color:gray;
+}
+
+
+#lstMaterias tr{
+	background: white;
+	color: black;
+}
+#lstAlumnos tr{
+	background: white;
+	color: black;
+
+}
+

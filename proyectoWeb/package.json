@@ -1,0 +1,25 @@
+{
+  "name": "proyecton",
+  "version": "1.0.0",
+  "description": "proyecto final",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "empaqueta": "electron-packager . Calculadora --overwrite --icon=logo.icns --asar",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "proyecto",
+    "programacion",
+    "web",
+    "final"
+  ],
+  "author": "yo",
+  "license": "MIT",
+  "devDependencies": {
+    "asar": "^0.14.0",
+    "electron": "^1.7.9",
+    "electron-packager": "^10.1.0",
+    "electron-require": "^0.3.0"
+  }
+}

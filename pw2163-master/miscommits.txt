@@ -1,0 +1,11 @@
+commit 2c049e237d73242137f90a3afd9b4b42ba38b6b6
+Author: Zhadow12 <nery_ceb14@hotmail.com>
+Date:   Fri Sep 2 11:31:36 2016 -0600
+
+    Cambio en mi readme.txt
+
+commit add0148228a57dd80677ac05a027998b3a5a9503
+Author: Zhadow12 <nery_ceb14@hotmail.com>
+Date:   Tue Aug 30 11:56:05 2016 -0600
+
+    Commit inicial con readme.txt
