@@ -1,0 +1,57 @@
+body{
+	font-size: 0px; 
+	margin: 0 auto;
+	max-width: 1024px;
+	min-width: 1024px
+}
+ 
+header img{ 
+	margin-left: 10px
+}
+
+header nav ul li{
+	text-align: right;
+	display: inline-block;
+	/*margin-left: 18px;*/
+	font-size: 16px;
+	margin: 60px 0px 0px 20px;
+}
+
+#menubody{
+	font-size: 16px; 
+	margin: 0 auto;
+	max-width: 1024px;
+	min-width: 1024px
+}
+ 
+header img{ 
+	margin-left: 10px
+}
+
+header nav ul li{
+	text-align: right;
+	display: inline-block;
+	/*margin-left: 18px;*/
+	font-size: 16px;
+	margin: 60px 0px 0px 20px;
+}
+
+#menu{
+	margin: 40px 0px 0px -30px;
+}
+
+#gu_logo{
+	float: right;
+}
+#news_claro{
+	float: right;
+}
+
+#news_verde{
+	float: right;
+}
+
+#news_rojo{
+	float: right;
+	margin: 60px -30px 0px 0px;
+}
